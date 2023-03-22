@@ -1,0 +1,32 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "cross-env NODE_ENV=development nodemon -x"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/koa": "^2.13.5",
+        "@types/koa-bodyparser": "^4.3.10",
+        "@types/koa-logger": "^3.1.2",
+        "@types/koa-router": "^7.4.4",
+        "@types/node": "^18.15.3",
+        "cross-env": "^7.0.3",
+        "nodemon": "^2.0.21",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.5"
+    },
+    "dependencies": {
+        "koa": "^2.14.1",
+        "koa-body": "^6.0.1",
+        "koa-bodyparser": "^4.4.0",
+        "koa-jwt": "^4.0.4",
+        "koa-logger": "^3.2.1",
+        "koa-router": "^12.0.0"
+    }
+}
